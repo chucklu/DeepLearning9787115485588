@@ -1,3 +1,4 @@
+#NumPy的N维数组
 import numpy as np
 A = np.array([[1, 2], [3, 4]])
 print(f'A = {A}')
@@ -17,4 +18,4 @@ print()
 
 print(f'A+B={A+B}')
 print(f'A*B={A*B}')
-print(f'A*10={A*10}')
+print(f'A*10={A*10}')#标量(单一数值)
