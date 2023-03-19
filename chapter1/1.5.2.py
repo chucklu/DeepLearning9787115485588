@@ -1,3 +1,4 @@
+#生成NumPy数组
 import numpy as np
 x = np.array([1.0, 2.0, 3.0])
 print(f'x = {x}')  # x = [1. 2. 3.]

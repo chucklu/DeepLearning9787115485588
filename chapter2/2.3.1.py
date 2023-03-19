@@ -1,7 +1,7 @@
 def AND(x1, x2):
     w1, w2, theta = 0.5, 0.5, 0.7
     temp = w1*x1+w2*x2
-    if (temp < theta):
+    if (temp <= theta):
         return 0
     else:
         return 1
