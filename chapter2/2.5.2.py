@@ -26,6 +26,14 @@ def OR(inputs):
     bias = -0.2
     return Perceptron(inputs, weights, bias)
 
+# NAND as s1
+# OR as s2
+# s1 and s2 as the input of AND
+def XOR(inputs):
+    s1 = NAND(inputs)
+    s2 = OR(inputs)
+    output = AND([s1, s2])
+    return output
 
 def testWithFunctionName(function_name):
     for i in range(0, 2):
@@ -42,7 +50,7 @@ def callFunction(function_name, inputs):
 
 
 def test():
-    for function_name in ['AND', 'NAND', 'OR']:
+    for function_name in ['AND', 'NAND', 'OR', 'XOR']:
         testWithFunctionName(function_name)
         print()
 
