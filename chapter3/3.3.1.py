@@ -11,7 +11,7 @@ print(f'B.ndim = {B.ndim}')
 print(f'B.shape = {B.shape}')
 
 #这里生成了一个3 × 2的数组B。
-#3 × 2的数组表示第一个维度有3个元素，第二个维度有2个元素。
+#3 × 2的数组表示第一个维度有3个元素(3行,每行2个数字)，第二个维度有2个元素(2列,每列3个数字)。
 #另外，第一个维度对应第0维，第二个维度对应第1维（Python的索引从0开始）
 
 #For dimension 0 (rows), we fix the row index and use a colon : to select all elements in that row.
